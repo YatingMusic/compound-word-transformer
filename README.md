@@ -1,7 +1,7 @@
 # Compound Word Transformer
 
 
-Authors: [Wen-Yi Hsiao](), [Jen-Yu Liu](), [Yin-Cheng Yeh](), [Yi-Hsuan Yang]()
+Authors: [Wen-Yi Hsiao](), [Jen-Yu Liu](), [Yin-Cheng Yeh]() and [Yi-Hsuan Yang]()
 
 [**Paper (arXiv)**]() | [**Audio demo (Google Drive)**]() |
 
