@@ -27,7 +27,7 @@ pip install chorder
 ## Model
 In this work, we conduct two scenario of generation:
 * unconditional generation
-    * To see the experimental results and the discussion, pleasee refer to [here](./worksapce/uncond/Experiments.md). 
+    * To see the experimental results and the discussion, pleasee refer to [here](https://github.com/YatingMusic/compound-word-transformer/blob/main/workspace/uncond/Experiments.md). 
 
 * conditional generation, leadsheet to full midi (ls2midi)
     * [**Working in progress**] The codes associated with this part are planning to open source in the future
