@@ -42,6 +42,5 @@ The full workspace of our dataset **Ailabs.tw Pop17K** are available [here](http
 
 ## Acknowledgement
 - PyTorch codes for transformer-XL is modified from [kimiyoung/transformer-xl](https://github.com/kimiyoung/transformer-xl).
-- Thanks [
-Yu-Hua Chen](https://github.com/ss12f32v)
+- Thanks [Yu-Hua Chen](https://github.com/ss12f32v) and [Hsiao-Tzu Hung](https://github.com/annahung31) for helping organize the codes.
 
