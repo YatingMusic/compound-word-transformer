@@ -5,7 +5,7 @@ Authors: [Wen-Yi Hsiao](), [Jen-Yu Liu](), [Yin-Cheng Yeh](), [Yi-Hsuan Yang]()
 
 [**Paper (arXiv)**]() | [**Audio demo (Google Drive)**]() |
 
-Officail PyTorch implementation of AAAI2021 paper "Compound Word Transformer: Learning to Compose Full-Song Musicover Dynamic Directed Hypergraphs".
+Official PyTorch implementation of AAAI2021 paper "Compound Word Transformer: Learning to Compose Full-Song Musicover Dynamic Directed Hypergraphs".
 
 We presented a new variant of the Transformer that can processes multiple consecutive tokens at once at a time step. The proposed method can greatly reduce the length of the resulting sequence and therefore enhance the training and inference efficiency. We employ it to learn to compose expressive Pop piano music of full-song length (involving up to 10K individual to23 kens per song). In this repository, we open source our **Ailabs.tw Pop17K** dataset, and the codes for unconditional generation.
 
