@@ -1,6 +1,6 @@
 # Experiments
 
-Experimental results of **unconditional** generation. We also elaborate detailed settings which ommited in the paper because of the space limitation.
+Experimental results of **unconditional** generation. We also elaborate detailed settings which are omitted in the paper because of the space limitation.
 
 ## Run the Codes
 **cp-linear**
@@ -40,7 +40,7 @@ All transformers share the same settings:
 |:---------------------------:|:----------------------:|:----------------------:|
 | learning rate               | 2e-4                   | 1e-4                   |
 | songs for training          | 1,612                  | 1,675                  |
-| sequence length             | 7,680 (512 x 5)        | 3,584                  |
+| sequence length             | 7,680 (512 x 15)       | 3,584                  |
 | dicionary size              | 332                    | 342                    |
 | parameter amount            | 41,291,084             | 39,016,630             |
 | recepetive field (train)    | 512 + 512 for memory   | 3,584                  |

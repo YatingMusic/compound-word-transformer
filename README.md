@@ -14,12 +14,10 @@ We presented a new variant of the Transformer that can processes multiple consec
 
 * python 3.6
 * Required packages:
-```bash
-pip install miditoolkit
-pip install torch==1.5.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
-pip install --user pytorch-fast-transformers
-pip install chorder
-```
+    * madmom
+    * miditoolkit
+    * pytorch-fast-transformers
+    * 
 
 ``chorder`` is our in-house rule-based symbolic chord recognition algorithm, which is developed by our former intern - [joshuachang2311](https://github.com/joshuachang2311/chorder). He is also a jazz pianist :musical_keyboard:. 
 
@@ -30,14 +28,14 @@ In this work, we conduct two scenario of generation:
     * To see the experimental results and the discussion, pleasee refer to [here](https://github.com/YatingMusic/compound-word-transformer/blob/main/workspace/uncond/Experiments.md). 
 
 * conditional generation, leadsheet to full midi (ls2midi)
-    * [**Working in progress**] The codes associated with this part are planning to open source in the future
+    * [**Work in progress**] We plan to open source the code associated with this part in the future. 
         * melody extracyion (skyline) 
         * objective metrics
         * model
 
 ## Dataset
-To preparing your own training data, please refer to [documentaion]() for further understanding.  
-The full workspace of our dataset **Ailabs.tw Pop17K** are available [here](https://drive.google.com/drive/folders/1DY54sxeCcQfVXdGXps5lHwtRe7D_kBRV?usp=sharing).
+To prepare your own training data, please refer to [documentaion]() for further understanding.  
+Or, you can start with our **AIlabs.tw Pop17K**, which is available [here](https://drive.google.com/drive/folders/1DY54sxeCcQfVXdGXps5lHwtRe7D_kBRV?usp=sharing).
 
 
 ## Acknowledgement

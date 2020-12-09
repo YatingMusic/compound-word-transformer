@@ -19,17 +19,17 @@ In this step, we use [madamom](https://github.com/CPJKU/madmom) for beat/downbea
 * run `synchronizer.py`
 
 ## 3. From `midi_synchronized` to `midi_analyzed`
-In this step, we develop in-house rule-based symbolic melody extraction and chord recognition algorithm to obtain desired information. Only codes for chord are open sourced [here](https://github.com/joshuachang2311/chorder).
+In this step, we develop in-house rule-based symbolic melody extraction and chord recognition algorithm to obtain desired information. The code for chord recognition are open sourced [here](https://github.com/joshuachang2311/chorder). We plan to open rhe code for melody extraction in the future. 
 
 * run `analyzer.py`
 
 ## 4. From  `midi_analyzed` to `Corpus`
-We quantize every thing (duration, velocity, bpm) in this step. Also append the data with EOS(end of sequence) token. 
+We quantize everything (duration, velocity, bpm) in this step. Also append the data with EOS(end of sequence) token. 
 
 * run `midi2corpus.py`
 
 ## 5. From `Corpus` to `Representation`
-We have 2 kinds of representation - Compound Word (**CP**) and **REMI**, and 2 tasks - unconditional and conditional generation, which resulting 4 combinations. Go to corresponding folder `task\repre` and run the scripts.
+We have 2 kinds of representation - Compound Word (**CP**) and **REMI**, and 2 tasks - unconditional and conditional generation, which resulting 4 combinations. Go to corresponding folder `<task>/<repre>` and run the scripts.
 
 
 * run `corpus2events.py`: to generate human readable tokens and re-arrange data.
@@ -40,4 +40,4 @@ We have 2 kinds of representation - Compound Word (**CP**) and **REMI**, and 2 t
 
 ## AILabs.tw Pop17K dataset
 
-Alternatively, you can refer to [here](https://drive.google.com/drive/folders/1DY54sxeCcQfVXdGXps5lHwtRe7D_kBRV?usp=sharing) to obtain the entire workspace and pre-processed training data, which originally used in our paper.
+Alternatively, you can refer to [here](https://drive.google.com/drive/folders/1DY54sxeCcQfVXdGXps5lHwtRe7D_kBRV?usp=sharing) to obtain the entire workspace and the pre-processed training data, which originally used in our paper.
