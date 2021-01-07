@@ -98,7 +98,7 @@ For the CP+Linear setting, it only takes less than half minutes to generate a so
 * [remi-xl](https://drive.google.com/drive/folders/1tCaWQisPp_bcXKH5J3Nxmv6kUzJXs6qw?usp=sharing)
 
 ## Discussion
-### About generated samples
+### About the generated samples
 We find that the generated pieces of REMI-XL tend to stick to some patterns and occasionally fall to loop them for a quite long time, or even the entire song. The quality within the loop is suprisingly organized (clearly arpeggio in left hand, melody line in right hand), but also a bit of tedious. The samples from CP-linear have a rather different texture, the "structure" diversity is richer but it's also more aggressive in selecting pitches.
 
 ### About EOS
