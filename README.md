@@ -3,7 +3,7 @@
 
 Authors: [Wen-Yi Hsiao](https://github.com/wayne391), [Jen-Yu Liu](https://github.com/ciaua), [Yin-Cheng Yeh](https://github.com/yyeh26) and [Yi-Hsuan Yang](http://mac.citi.sinica.edu.tw/~yang/)
 
-[**Paper (arXiv)**]() | [**Audio demo (Google Drive)**]() |
+[**Paper (arXiv)**]() | [**Audio demo (Google Drive)**](https://drive.google.com/drive/folders/1G_tTpcAuVpYO-4IUGS8i8XdwoIsUix8o?usp=sharing) |
 
 Official PyTorch implementation of AAAI2021 paper "Compound Word Transformer: Learning to Compose Full-Song Musicover Dynamic Directed Hypergraphs".
 
@@ -35,7 +35,7 @@ In this work, we conduct two scenario of generation:
 
 ## Dataset
 To prepare your own training data, please refer to [documentaion]() for further understanding.  
-Or, you can start with our **AIlabs.tw Pop17K**, which is available [here](https://drive.google.com/drive/folders/1DY54sxeCcQfVXdGXps5lHwtRe7D_kBRV?usp=sharing).
+Or, you can start with our **AIlabs.tw Pop17K**, which is available [here](https://drive.google.com/file/d/1qw_tVUntblIg4lW16vbpjLXVndkVtgDe/view?usp=sharing).
 
 
 ## Acknowledgement
