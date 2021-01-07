@@ -25,7 +25,7 @@ We presented a new variant of the Transformer that can processes multiple consec
 ## Model
 In this work, we conduct two scenario of generation:
 * unconditional generation
-    * To see the experimental results and the discussion, please refer to [here](https://github.com/YatingMusic/compound-word-transformer/blob/main/workspace/uncond/Experiments.md). 
+    * To see the experimental results and discussion, please refer to [here](https://github.com/YatingMusic/compound-word-transformer/blob/main/workspace/uncond/Experiments.md). 
 
 * conditional generation, leadsheet to full midi (ls2midi)
     * [**Work in progress**] We plan to open source the code associated with this part in the future. 
