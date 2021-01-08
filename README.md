@@ -3,7 +3,7 @@
 
 Authors: [Wen-Yi Hsiao](https://github.com/wayne391), [Jen-Yu Liu](https://github.com/ciaua), [Yin-Cheng Yeh](https://github.com/yyeh26) and [Yi-Hsuan Yang](http://mac.citi.sinica.edu.tw/~yang/)
 
-[**Paper (arXiv)**]() | [**Audio demo (Google Drive)**](https://drive.google.com/drive/folders/1G_tTpcAuVpYO-4IUGS8i8XdwoIsUix8o?usp=sharing) | [**Blog**](https://ailabs.tw/human-interaction/compound-word-transformer-generate-pop-piano-music-of-full-song-length/)
+[**Paper (arXiv)**](https://arxiv.org/abs/2101.02402) | [**Audio demo (Google Drive)**](https://drive.google.com/drive/folders/1G_tTpcAuVpYO-4IUGS8i8XdwoIsUix8o?usp=sharing) | [**Blog**](https://ailabs.tw/human-interaction/compound-word-transformer-generate-pop-piano-music-of-full-song-length/)
 
 Official PyTorch implementation of AAAI2021 paper "Compound Word Transformer: Learning to Compose Full-Song Musicover Dynamic Directed Hypergraphs".
 
