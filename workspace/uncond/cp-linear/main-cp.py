@@ -624,7 +624,7 @@ def train():
         if 0.4 < loss <= 0.8:
             fn = int(loss * 10) * 10
             saver_agent.save_model(net, name='loss_' + str(fn))
-        elif 0.05 < loss <= 0.30:
+        elif 0.05 < loss <= 0.40:
             fn = int(loss * 100)
             saver_agent.save_model(net, name='loss_' + str(fn))
         elif loss <= 0.05:
