@@ -3,7 +3,7 @@
 
 Authors: [Wen-Yi Hsiao](https://github.com/wayne391), [Jen-Yu Liu](https://github.com/ciaua), [Yin-Cheng Yeh](https://github.com/yyeh26) and [Yi-Hsuan Yang](http://mac.citi.sinica.edu.tw/~yang/)
 
-[**Paper (arXiv)**](https://arxiv.org/abs/2101.02402) | [**Audio demo (Google Drive)**](https://drive.google.com/drive/folders/1G_tTpcAuVpYO-4IUGS8i8XdwoIsUix8o?usp=sharing) | [**Blog**](https://ailabs.tw/human-interaction/compound-word-transformer-generate-pop-piano-music-of-full-song-length/)
+[**Paper (arXiv)**](https://arxiv.org/abs/2101.02402) | [**Audio demo (Google Drive)**](https://drive.google.com/drive/folders/1G_tTpcAuVpYO-4IUGS8i8XdwoIsUix8o?usp=sharing) | [**Blog**](https://ailabs.tw/human-interaction/compound-word-transformer-generate-pop-piano-music-of-full-song-length/) | [**Colab notebook**](https://colab.research.google.com/drive/1AU8iMhy10WxHj7yt3j8S3FQvvKvgXrr0)
 
 Official PyTorch implementation of AAAI2021 paper "Compound Word Transformer: Learning to Compose Full-Song Musicover Dynamic Directed Hypergraphs".
 
@@ -36,6 +36,11 @@ In this work, we conduct two scenario of generation:
 ## Dataset
 To prepare your own training data, please refer to [documentaion](https://github.com/YatingMusic/compound-word-transformer/blob/main/dataset/Dataset.md) for further understanding.  
 Or, you can start with our **AIlabs.tw Pop17K**, which is available [here](https://drive.google.com/file/d/1qw_tVUntblIg4lW16vbpjLXVndkVtgDe/view?usp=sharing).
+
+## Demo: Colab Notebook
+
+The colab notebook is now available [here](https://colab.research.google.com/drive/1AU8iMhy10WxHj7yt3j8S3FQvvKvgXrr0).  
+Thanks our intern [AdarshKumar712](https://github.com/AdarshKumar712) for organizing the codes.
 
 
 ## Acknowledgement
