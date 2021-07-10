@@ -38,6 +38,6 @@ We have 2 kinds of representation - Compound Word (**CP**) and **REMI**, and 2 t
 
 ---
 
-## AILabs.tw Pop17K dataset
+## AILabs.tw Pop1K7 dataset
 
 Alternatively, you can refer to [here](https://drive.google.com/drive/folders/1DY54sxeCcQfVXdGXps5lHwtRe7D_kBRV?usp=sharing) to obtain the entire workspace and the pre-processed training data, which originally used in our paper.
