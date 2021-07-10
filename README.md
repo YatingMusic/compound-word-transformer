@@ -35,7 +35,7 @@ In this work, we conduct two scenario of generation:
 
 ## Dataset
 To prepare your own training data, please refer to [documentaion](https://github.com/YatingMusic/compound-word-transformer/blob/main/dataset/Dataset.md) for further understanding.  
-Or, you can start with our **AIlabs.tw Pop17K**, which is available [here](https://drive.google.com/file/d/1qw_tVUntblIg4lW16vbpjLXVndkVtgDe/view?usp=sharing).
+Or, you can start with our **AIlabs.tw Pop1K7**, which is available [here](https://drive.google.com/file/d/1qw_tVUntblIg4lW16vbpjLXVndkVtgDe/view?usp=sharing).
 
 ## Demo: Colab Notebook
 
