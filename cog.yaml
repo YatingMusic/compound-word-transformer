@@ -1,0 +1,18 @@
+build:
+  python_version: "3.6"
+  gpu: True
+  python_packages:
+    - cython==3.0.0a9
+    - torch==1.5.0
+    - miditoolkit==0.1.14
+    - tqdm==4.62.2
+    - pylab-sdk==1.3.2
+    - matplotlib==3.3.4
+    - midi2audio==0.1.1
+  system_packages:
+    - fluidsynth --fix-missing
+    - ffmpeg
+  pre_install:
+    - "pip install madmom"
+    - "pip install pytorch-fast-transformers"
+predict: "predict.py:Predictor"

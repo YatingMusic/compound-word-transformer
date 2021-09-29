@@ -1,4 +1,5 @@
 # Compound Word Transformer
+<a href="https://replicate.ai/yatingmusic/compound-word-transformer"><img src="https://img.shields.io/static/v1?label=Replicate&message=Demo and Docker Image&color=darkgreen" height=20></a>
 
 
 Authors: [Wen-Yi Hsiao](https://github.com/wayne391), [Jen-Yu Liu](https://github.com/ciaua), [Yin-Cheng Yeh](https://github.com/yyeh26) and [Yi-Hsuan Yang](http://mac.citi.sinica.edu.tw/~yang/)
@@ -17,19 +18,19 @@ We presented a new variant of the Transformer that can processes multiple consec
     * madmom
     * miditoolkit
     * pytorch-fast-transformers
- 
 
-``chorder`` is our in-house rule-based symbolic chord recognition algorithm, which is developed by our former intern - [joshuachang2311](https://github.com/joshuachang2311/chorder). He is also a jazz pianist :musical_keyboard:. 
+
+``chorder`` is our in-house rule-based symbolic chord recognition algorithm, which is developed by our former intern - [joshuachang2311](https://github.com/joshuachang2311/chorder). He is also a jazz pianist :musical_keyboard:.
 
 
 ## Model
 In this work, we conduct two scenario of generation:
 * unconditional generation
-    * To see the experimental results and discussion, please refer to [here](https://github.com/YatingMusic/compound-word-transformer/blob/main/workspace/uncond/Experiments.md). 
+    * To see the experimental results and discussion, please refer to [here](https://github.com/YatingMusic/compound-word-transformer/blob/main/workspace/uncond/Experiments.md).
 
 * conditional generation, leadsheet to full midi (ls2midi)
-    * [**Work in progress**] We plan to open source the code associated with this part in the future. 
-        * melody extracyion (skyline) 
+    * [**Work in progress**] We plan to open source the code associated with this part in the future.
+        * melody extracyion (skyline)
         * objective metrics
         * model
 
@@ -46,4 +47,3 @@ Thanks our intern [AdarshKumar712](https://github.com/AdarshKumar712) for organi
 ## Acknowledgement
 - PyTorch codes for transformer-XL is modified from [kimiyoung/transformer-xl](https://github.com/kimiyoung/transformer-xl).
 - Thanks [Yu-Hua Chen](https://github.com/ss12f32v) and [Hsiao-Tzu Hung](https://github.com/annahung31) for helping organize the codes.
-
