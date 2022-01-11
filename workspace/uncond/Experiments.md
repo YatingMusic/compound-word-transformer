@@ -45,7 +45,7 @@ All transformers share the same settings:
 | parameter amount            | 41,291,084             | 39,016,630             |
 | recepetive field (train)    | 512 + 512 for memory   | 3,584                  |
 
-Because the differnece of nature between the two representations, it's hard to keep the training data for the 2 settings totally equal. We adjust the `number of songs` and the `sequence length` to achieve reasonable balance. 
+Because the difference of nature between the two representations, it's hard to keep the training data for the 2 settings totally equal. We adjust the `number of songs` and the `sequence length` to achieve reasonable balance. 
 
 Under the limitation of hardware budget (single 2080ti GPU), we report the comparison between the 2 settings:
 * REMI + XL: remi representation, transformer-XL
