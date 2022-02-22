@@ -102,4 +102,4 @@ For the CP+Linear setting, it only takes less than half minutes to generate a so
 We find that the generated pieces of REMI-XL tend to stick to some patterns and occasionally fall to loop them for a quite long time, or even the entire song. The quality within the loop is suprisingly organized (clearly arpeggio in left hand, melody line in right hand), but also a bit of tedious. The samples from CP-linear have a rather different texture, the "structure" diversity is richer but it's also more aggressive in selecting pitches.
 
 ### About EOS
-It turns out that REMI-XL failed in generating EOS sequence, which implies the sequence length might exceed the "effective length" becuase of it's rnn nature. In fact, we also tried remi+linear and cp+linear, and both of them success in this criterion.
+It turns out that REMI-XL failed in generating EOS sequence, which implies the sequence length might exceed the "effective length" becuase of it's rnn nature. In fact, we also tried remi+linear and cp+linear, and both of them succeed in this criterion.
