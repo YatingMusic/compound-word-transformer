@@ -30,7 +30,7 @@ TICK_RESOL = BEAT_RESOL // 4
 INSTR_NAME_MAP = {'piano': 0, 'melody': 1}
 
 
-def wrtie_midi(words, path_midi, word2event):
+def write_midi(words, path_midi, word2event):
     notes_all = []
 
     events = [word2event[words[i]] for i in range(len(words))]
